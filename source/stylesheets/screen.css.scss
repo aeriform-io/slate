@@ -33,6 +33,7 @@ html, body {
   @extend %default-font;
   background-color: $main-bg;
   height: 100%;
+  margin-bottom: 100px;
   -webkit-text-size-adjust: none; /* Never autoresize text */
 }
 

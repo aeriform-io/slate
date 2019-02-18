@@ -35,12 +35,17 @@ If there is an issue with activation, please contact [support](https://aeriform.
 Ramma is available in English, Russian, Japanese, Icelandic, Chinese (Simplified and Traditional).
 
 ## Locating Frames and Sequences
+Sometimes it is necessary to locate a frame or sequence in the system file manager.
+
+To locate the sequence folder, click on the name of the sequence found at the top left of any shown sequence.
+
+To locate a frame on disk, double click the block it represents in the map.
 ## Ignoring Folders
-Sequence folders on disk many be ignored to prevent them from being read by Ramma.
+Sequence folders on disk may be ignored to prevent them from being read by Ramma.
 
-This is useful when sequences contain subfolders that are not intended to be read as sequences.
+This is useful when sequences contain subfolders that are not intended to be read as sequences, or sequences that do not need to be managed.
 
-To set a folder to be ignored, click and hold `DISMISS` until `IGNORE` appears. Click this to commit.
+To set a folder to be ignored, click and hold `DISMISS`. Once `IGNORE` appears, click again to confirm. The sequence will be dismissed and not included.
 
 Ramma will generate a `.ignore` file within the specified sequence folder.
 <aside class="notice">To restore ignored folders, find and delete the .ignore file.</aside>
@@ -48,6 +53,9 @@ Ramma will generate a `.ignore` file within the specified sequence folder.
 Ramma can generate a report of frames that are marked as bad.
 
 This is useful for passing back a list of frames to rendering software, and some that may lack the ability to skip existing frames.
+
+To generate a report, right click on the sequence and select `REPORT`. Single click will generate a report and store it in the system clipboard. Double click will write a `frames.txt` file to the sequence folder and open it with the default text editor.
+<aside class="notice">Reporting is only available on sequences that have frames marked as bad.</aside>
 ## Supported Formats and Tools
 
 .exr .dpx .jpg/.jpeg .png .tif/.tiff .sgi .tga
@@ -59,3 +67,14 @@ Fusion, After Effects, 3dsmax, Resolve, NUKE, and particle simulation data from 
 
 
 ## Themes
+A variety of themes to customise the look of Ramma and other Aeriform tools are available.
+
+Themes are loaded by drag and drop in Ramma.
+
+These themes are available from the [Themes](https://github.com/aeriform-io/Themes) repository.
+
+Ramma is also compatible with the Hundred Rabbits Themes [Ecosystem](https://github.com/hundredrabbits/Themes).
+
+
+
+_
