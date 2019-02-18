@@ -287,12 +287,18 @@ After ordering, a license key file will be delivered via email.</p>
 <aside class="notice">Note that file size differential can result in false-positive reported frames. This is due to file size inconsistencies caused by certain image formats, such as .png</aside>
 <h3 id='notification-of-bad-frames'>Notification of bad frames</h3><h3 id='notification-of-multiple-sequences-in-same-folder'>Notification of multiple sequences in same folder</h3><h3 id='language'>Language</h3>
 <p>Ramma is available in English, Russian, Japanese, Icelandic, Chinese (Simplified and Traditional).</p>
-<h2 id='locating-frames-and-sequences'>Locating Frames and Sequences</h2><h2 id='ignoring-folders'>Ignoring Folders</h2>
-<p>Sequence folders on disk many be ignored to prevent them from being read by Ramma.</p>
+<h2 id='locating-frames-and-sequences'>Locating Frames and Sequences</h2>
+<p>Sometimes it is necessary to locate a frame or sequence in the system file manager.</p>
 
-<p>This is useful when sequences contain subfolders that are not intended to be read as sequences.</p>
+<p>To locate the sequence folder, click on the name of the sequence found at the top left of any shown sequence.</p>
 
-<p>To set a folder to be ignored, click and hold <code>DISMISS</code> until <code>IGNORE</code> appears. Click this to commit.</p>
+<p>To locate a frame on disk, double click the block it represents in the map.</p>
+<h2 id='ignoring-folders'>Ignoring Folders</h2>
+<p>Sequence folders on disk may be ignored to prevent them from being read by Ramma.</p>
+
+<p>This is useful when sequences contain subfolders that are not intended to be read as sequences, or sequences that do not need to be managed.</p>
+
+<p>To set a folder to be ignored, click and hold <code>DISMISS</code>. Once <code>IGNORE</code> appears, click again to confirm. The sequence will be dismissed and not included.</p>
 
 <p>Ramma will generate a <code>.ignore</code> file within the specified sequence folder.
 <aside class="notice">To restore ignored folders, find and delete the .ignore file.</aside></p>
@@ -300,6 +306,9 @@ After ordering, a license key file will be delivered via email.</p>
 <p>Ramma can generate a report of frames that are marked as bad.</p>
 
 <p>This is useful for passing back a list of frames to rendering software, and some that may lack the ability to skip existing frames.</p>
+
+<p>To generate a report, right click on the sequence and select <code>REPORT</code>. Single click will generate a report and store it in the system clipboard. Double click will write a <code>frames.txt</code> file to the sequence folder and open it with the default text editor.
+<aside class="notice">Reporting is only available on sequences that have frames marked as bad.</aside></p>
 <h2 id='supported-formats-and-tools'>Supported Formats and Tools</h2>
 <p>.exr .dpx .jpg/.jpeg .png .tif/.tiff .sgi .tga
 .xpc .vdb .bin .dng .psd .jp2</p>
@@ -307,6 +316,16 @@ After ordering, a license key file will be delivered via email.</p>
 <p>Support for images rendered from Cinema4D, Maya,
 Fusion, After Effects, 3dsmax, Resolve, NUKE, and particle simulation data from Realflow, Houdini and Xparticles, among many other animation and video tools.</p>
 <h2 id='themes'>Themes</h2>
+<p>A variety of themes to customise the look of Ramma and other Aeriform tools are available.</p>
+
+<p>Themes are loaded by drag and drop in Ramma.</p>
+
+<p>These themes are available from the <a href="https://github.com/aeriform-io/Themes">Themes</a> repository.</p>
+
+<p>Ramma is also compatible with the Hundred Rabbits Themes <a href="https://github.com/hundredrabbits/Themes">Ecosystem</a>.</p>
+
+<p>_</p>
+
       </div>
       <div class="dark-box">
       </div>
